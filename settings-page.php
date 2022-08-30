@@ -21,7 +21,10 @@ function tbe_render_plugin_settings_page(): void {
         <?php
         settings_fields( TBE_OPTIONS_NAME );
 		do_settings_sections( 'lrfw_plugin' ); ?>
-		<input name="submit" class="button button-primary" type="submit" value="<?php esc_attr_e( 'Save' ); ?>" />
+		<div>
+            <hr style="padding-top: 30px; margin-top: 30px;" />
+            <input name="submit" class="button button-primary" type="submit" value="<?php esc_attr_e( 'Save' ); ?>" />
+        </div>
 	</form>
 	<?php
 }
@@ -49,8 +52,8 @@ function lrfw_plugin_section_text() {
 
     foreach($options as $key => $value) {
         ?>
-        <div>
-            <label style="font-weight: bold"><?php echo esc_attr($key);?>:</label>
+        <div style="margin-top: 20px">
+            <label style="font-weight: bold"><?php echo tbe_make_label_from_key($key);?>:</label>
             <textarea style="width: 700px; display: block;" class="input-text" rows="3" name="translations[<?php echo esc_attr($key);?>]"><?php echo esc_attr($value);?></textarea>
         </div>
         <?php

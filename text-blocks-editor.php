@@ -30,6 +30,7 @@ define("TBE_PLUGIN_DIR", dirname(__FILE__));
 
 if(is_admin()) {
 	require_once TBE_PLUGIN_DIR."/settings-page.php";
+	require_once TBE_PLUGIN_DIR."/functions.php";
 }
 
 function tbe_get_current_theme_textdomain(): string {
