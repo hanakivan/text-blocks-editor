@@ -1,3 +1,17 @@
 {
-    "foo": "bar"
+    "homepage_banner_title": "Pen\u00edze snadno \r\na rychle je\u0161t\u011b dnes!",
+    "homepage_banner_desc": "lorem ipsum...",
+    "homepage_steps_title": "3 kroky ke sjedn\u00e1n\u00ed slu\u017eby",
+    "homepage_steps_desc": "V\u0161e vy\u0159\u00edd\u00edte online z va\u0161eho mobiln\u00edho telefonu!",
+    "homepage_steps_step_1": "Zvolte si V\u00e1mi \r\npo\u017eadovanou \u010d\u00e1stku",
+    "homepage_steps_step_2": "Vypl\u0148te kr\u00e1tk\u00fd a jednoduch\u00fd \r\nonline formul\u00e1\u0159 u n\u00e1s na webu",
+    "homepage_steps_step_3": "U\u017e do 10ti minut po dokon\u010den\u00ed \r\n\u017e\u00e1dosti, V\u00e1m ode\u0161leme pen\u00edze.",
+    "homepage_how_it_works_title": "Jak funguje online p\u016fj\u010dka?",
+    "homepage_how_it_works_desc": "Pod\u00edvejte se jak jednoduch\u00e9 je u n\u00e1s z\u00edskat p\u016fj\u010dku",
+    "homepage_testimonials_title": "Zku\u0161enosti z\u00e1kazn\u00edk\u016f",
+    "homepage_testimonials_desc": "For lab and small production use, we developed a simple and flexible solution - OMNIPEF.",
+    "homepage_features_title": "V\u00fdhody na\u0161\u00ed p\u016fj\u010dky",
+    "homepage_features_desc": "For lab and small production use, we developed a simple and flexible solution - OMNIPEF. OMNIPEF is usable for both batch or continuous treatments. Adjusting OMNIPEF from batch to continuous.",
+    "homepage_blog_title": "Finan\u010dn\u00ed magazin",
+    "homepage_blog_desc": "For lab and small production use, we developed a simple and flexible solution - OMNIPEF. OMNIPEF is usable for both batch or continuous treatments. Adjusting OMNIPEF from batch to continuous."
 }
