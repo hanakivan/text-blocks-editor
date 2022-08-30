@@ -51,7 +51,7 @@ function lrfw_plugin_section_text() {
         ?>
         <div>
             <label style="font-weight: bold"><?php echo esc_attr($key);?>:</label>
-            <textarea class="input-text" rows="3" name="translations[<?php echo esc_attr($key);?>]"><?php echo esc_attr($value);?></textarea>
+            <textarea style="width: 700px; display: block;" class="input-text" rows="3" name="translations[<?php echo esc_attr($key);?>]"><?php echo esc_attr($value);?></textarea>
         </div>
         <?php
     }
